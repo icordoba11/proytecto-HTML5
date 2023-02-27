@@ -1,0 +1,165 @@
+/*  Fuentes */
+@font-face {
+    font-family: "montserrat";
+    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+.contenedor-principal-fondo{
+    background-image: url(./fondo\ principal.png);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgba(211, 211, 211, 0.096);
+    font-size: 16px;
+    
+}
+/*  Header ------------------------------------------------------------------------------------------------------------ */
+
+.header{ /* contenedoor principal */ 
+    max-width: 81.25em;
+    height: 9.375em;
+    display: grid;
+    grid-template-columns: 12.5em auto;
+    margin: 5px;
+    box-sizing: border-box;
+    }
+/* -------------- -------------------------*/
+
+/* Logo empresa */
+
+
+.logo-empresa{/* contenedoor del logo */
+    width: 11.25em;
+    height: 8.125em;
+}
+
+#logo-empresa{/* logo de la empresa */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    margin: 0.4375em 0px 0px 0.4375em;
+    box-sizing: border-box;
+    margin: 0px;
+
+    
+    }
+/* -------------- -------------------------*/
+
+/* DIV Nav- menu */
+
+.nav-menu{/* Contenedoor del menu de navegacion y buscador */
+    width: 70rem;
+    height: 9.375rem;
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+    
+    
+ }
+
+/* -------------- -------------------------*/
+
+/* NAV menu (Menu de navegacion) */
+
+.menu{/* hypervinculos y botones del menu */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+.menu-individual{ /* Personalizacion de cada uno de los botones del menu */
+    font-size: 0.9375em;
+    color: black;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 11.25em;
+    height: 3rem;
+    margin-top: 0.3125em;
+    font-weight: 600;
+    border-width: 0em;
+    background: transparent;
+    cursor: pointer;
+}
+.a:hover {/* personzalizacion de los hypervinculos */
+    background-color: gold;
+    text-decoration: none;
+    transform: scale(1);
+}  
+/* -------------- -------------------------*/
+
+/* Div Buscador General */
+.buscador-general{/* Contenedoor del buscador  */
+    width: 68.375em;
+    height: 68,0.3125em;
+    display: grid;
+    grid-template-columns: 53.625em auto;
+    
+    align-items: center;
+}
+.buscador{ /* personzalizacion del buscador */
+        font-size: 0.875rem;
+        width: 51.3125rem;
+        height: 2.5rem;
+        border-color: rgb(255, 217, 0, 0.685);
+        border-radius: 0.9375em 0px 0px 0.9375em;
+        color: rgb(5, 5, 5);
+        border-width: 2px;
+        background: transparent;
+        margin-left: 2.625em;
+        text-align: center;
+        box-sizing: border-box;
+}
+    
+    #search-button{/* personzalizacion del (boton) del buscador */
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    height: 2.5rem;
+    width: 12.5rem;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 4px;
+    border-width: 0;
+    background-color:rgba(255, 217, 0, 0.685);
+    border-radius: 0px 0.9375rem 0.9375rem 0px;
+    cursor: pointer;
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* NAV logos */
+
+.logos-flex{ /* Contenedor de logos y orden en forma de fila */
+    font-size: 16px;
+    margin: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-self: center;
+    
+    
+    
+}
+
+#logo-sika{/* personalizacion individual de logo */
+    width: 150px;
+    height: 150px;
+}
+#logo-mappei{/* personalizacion individual de logo */
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+}
+
+
+#logo-ormiflex{/* personalizacion individual de logo */
+    width: 250px;
+    height: 80px;
+    margin-top: 45px;
+}
+#logo-megaflex{/* personalizacion individual de logo */
+    width: 300px;
+    height: 80px;
+    margin-top: 40px;
+}
