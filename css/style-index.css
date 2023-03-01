@@ -1916,6 +1916,7 @@ body {
     width: 100%;
     display: grid;
     justify-content: center;
+    margin-left: 10px;
   }
 
   #logo-empresa {
@@ -2158,6 +2159,9 @@ body {
   .p-section-general1 {
     height: 1500px;
   }
+ .img-long{
+  margin-top: 60px;
+ }
 
   .p-text {
     height: 700px;
