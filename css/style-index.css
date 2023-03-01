@@ -1338,26 +1338,31 @@ body {
 
   /* ------------------------------------------------------------------------------------------------------------ */
   /* section 2 */
+  
   .section2 {
     /*  Contenedor de section2 */
-    height: 700px;
+    height: 1400px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto;
     justify-content: center;
+    width: 100%;
+    
   }
 
   .button-marcas {
     /*  clase para cada uno de los articulos */
-    width: 350px;
+    
     height: 300px;
     justify-content: space-evenly;
     margin: auto;
+   
   }
 
   .logos-articles-sec2 {
     /* contenedor de buttons */
     height: 100px;
     width: 250px;
+    justify-self: center;
   }
 
   .s2-video {
@@ -1599,6 +1604,7 @@ body {
     /* contenedoor del logo */
     font-size: 7px;
     height: 100%;
+    
   }
 
   #logo-empresa {
@@ -1610,12 +1616,12 @@ body {
   /* DIV Nav- menu */
   .nav-menu {
     /* Contenedoor del menu de navegacion y buscador */
-
     font-size: 14px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 6fr 2fr;
     width: auto;
+   
   }
 
   /* NAV menu (Menu de navegacion) */
@@ -1626,6 +1632,8 @@ body {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 
   /* ---------------------------------------------------------------------------------------------------------------- */
@@ -1633,13 +1641,17 @@ body {
 
   .logos-flex {
     /* Contenedor de logos y orden en forma de fila */
-    font-size: 9px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    height: 400px;
   }
 
   #logo-sika {
     /* personalizacion individual de logo */
     width: 75px;
     height: 75px;
+    margin-left: 40px;
   }
 
   /* ------------------------------------------------------------------------------------------------------------------- */
@@ -1660,6 +1672,7 @@ body {
     font-size: 15px;
     align-items: flex-start;
     margin-top: 20px;
+    
   }
 
   #marco {
@@ -1672,13 +1685,14 @@ body {
   .video-article {
     /* Contenedor de video- article*/
     width: 500px;
+    margin-left: 30px;
   }
 
   .video1 {
     /*  video1-- al lado de caja de texto */
     width: 430px;
     height: 215px;
-    margin-left: 45px;
+    
     margin-bottom: 270px;
   }
 
@@ -1702,12 +1716,17 @@ body {
   .button-marcas {
     /*  clase para cada uno de los articulos */
     width: 90%;
+    justify-items: center;
+    
   }
 
   .logos-articles-sec2 {
     /* contenedor de buttons */
     height: 80px;
     width: 300px;
+    margin-right: 30px; 
+    margin-bottom: 10px;
+    
   }
 
   .s2-video {
@@ -1948,11 +1967,16 @@ body {
     grid-template-rows: repeat(4, 1fr);
     justify-items: center;
     height: 300px;
+    margin-top: 50px;
+    margin-bottom: 80px;
   }
 
   /* banner */
   .img-long {
     height: 150px;
+  }
+  #logo-sika{
+    margin-right: 50px;
   }
 
   /* ------------------------------------------------------------------------------------------------------ */
