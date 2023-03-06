@@ -1,0 +1,44 @@
+header{
+    margin-bottom: 50px;
+}
+.section2{
+    grid-template-columns: auto;
+}
+.img-long{
+    width: 100%;
+    height: 300px;
+}
+.section1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px;
+   
+}
+.img-logos{
+    width: 90%;
+    height: 80%;
+    
+}
+.img-sika{
+    width: 90%;
+    height: 100%;
+    
+}
+.section3{
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    height: 300px;
+    background-color: gold;
+}
+.article-sec3{
+    height: 300px;
+    margin-left: 10px;
+    justify-self: center;
+    width: 90%;
+    height: 90%;
+
+}
+.sect4{
+    background-image: url(../assets/fondos-videos/fondo-button-elegido.webp);
+    height: 300px;
+}
