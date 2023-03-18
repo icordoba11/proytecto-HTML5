@@ -1,8 +1,10 @@
+@import "background";
+
 @font-face {
     font-family: "montserrat";
     src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
   }
-  
+
   /* -------------------------------------------------------------------------------------------------------------- */
   .contenedor-principal-fondo {
     background-image: url(./fondo\ principal.png);
@@ -218,7 +220,9 @@
     justify-content: space-around;
     height: 400px;
     background-color: gold;
+    
     width: 100%;
+    
   }
   
   .text-article {
@@ -915,6 +919,8 @@
     height: 70px;
     background-color: gold;
     margin-top: -4px;
+    
+
   }
   
   .cot-sec1 {
